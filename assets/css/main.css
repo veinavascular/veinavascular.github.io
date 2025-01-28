@@ -235,6 +235,19 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	#logo {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		border-bottom: 0px;
+	}
+
+	#veina-logo {
+		display: block;
+		max-height: 30px;
+		margin-left: 20px;
+	}
+
 /* Loader */
 
 	@-moz-keyframes spinner-show {
@@ -3890,7 +3903,7 @@ input, select, textarea {
 				background: #272833;
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
-
+				
 				#titleBar .title {
 					color: #ffffff;
 					display: block;
@@ -3899,6 +3912,13 @@ input, select, textarea {
 					line-height: 44px;
 					text-align: center;
 				}
+				
+					#titleBar #navpanel-title-logo {
+						display:flex;
+						align-items: center;
+						margin-left: 50px;
+					}
+				
 
 					#titleBar .title a {
 						color: inherit;
